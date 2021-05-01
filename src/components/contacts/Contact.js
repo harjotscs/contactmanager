@@ -48,7 +48,7 @@ class Contact extends Component {
                     className="fas fa-pencil-alt"
                     style={{
                       cursor: "pointer",
-                      color: "black",
+                      color: "#33658A",
                       float: "right",
                       marginRight: "1rem",
                     }}

@@ -24,8 +24,8 @@ class AddContact extends Component {
       this.setState({ errors: { email: "email is required" } });
       return;
     }
-    if (phone === "") {
-      this.setState({ errors: { phone: "phone is required" } });
+    if (phone === "" || phone.length < 10) {
+      this.setState({ errors: { phone: "Valid Phone Number is required" } });
       return;
     }
 
